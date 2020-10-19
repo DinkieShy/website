@@ -1,9 +1,17 @@
+:root{
+	--prim: #242F40;
+	--scnd: #7D8491;
+	--tert: #FC73C5;
+	--quat: #FFFFFF;
+	--quin: #16F3F3;
+}
+
 #titleArea{
 	width: 95vw;
 	margin: 2.5vh;
 	margin-left: 2.5vw;
 	min-height: 50px;
-	background: #b9b9b9;
+	background: var(--scnd);
 	padding: 1em;
 	box-sizing: border-box;
 	text-align: center;
@@ -25,8 +33,17 @@
 }
 
 #githubButton{
-	width: 100px;
-	height: 41px;
+	width: 175px;
+	height: 50px;
+}
+
+#linkedInButton{
+	width: 175px;
+	height: 50px;
+}
+
+#linkedInButton img{
+	filter: brightness(0) invert(1);
 }
 
 #contentArea{
@@ -36,49 +53,63 @@
 	flex-wrap: wrap;
 	width: 95vw;
 	box-sizing: border-box;
-	background: #b9b9b9;
+	background: var(--scnd);
 	border-radius: 10px;
 	padding: 1em;
 	justify-content: space-around;
 }
 
-.quickContent{
+.quick{
 	width: 20vw;
-	background: #8a8a8a;
+	background: var(--quin);
 	height: 20vw;
 	margin: 1vw;
+	border-radius: 20px;
+	text-align: center;
 }
 
 body{
 	padding: 0;
 	margin: 0;
-	background: #696969;
+	background: var(--prim);
 }
 
 h1, h2{
-	width: 50%;
 	margin: 0;
-	color: #ffffff;
-	background: #8a8a8a;	
+	color: var(--quat);
+	background: var(--tert);	
 	border-radius: 10px;
 	box-sizing: content-box;
 	text-align: center;
 }
 
 h1{	
+	width: 50%;
 	margin: 0.5%;
 	margin-left: 25%;
 	font-size: 4em;
 }
 
 h2{
+	padding: 4px;
 }
 
-#titleArea a{
-	background: #8a8a8a;
+a{
+	background: var(--quin);
 	border-radius: 10px;
+	color: var(--prim);
+}
+
+a img{
+	margin-top: 5px;
+	height: 40px;
+	width: auto;
 }
 
 html{
 	font-family: monospace;
+}
+
+a:hover{
+	filter: invert(1);
 }
