@@ -3,7 +3,8 @@
 	--scnd: #7D8491;
 	--tert: #FC73C5;
 	--quat: #FFFFFF;
-	--quin: #16F3F3;
+	--quin: #FC73C5;
+	/*--quin: #16F3F3;*/
 }
 
 #titleArea{
@@ -98,6 +99,7 @@ a{
 	background: var(--quin);
 	border-radius: 10px;
 	color: var(--prim);
+	box-shadow: 4px 4px 6px var(--prim);
 }
 
 a img{
