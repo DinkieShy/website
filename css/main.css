@@ -105,10 +105,14 @@ a{
 	box-shadow: 4px 4px 6px var(--prim);
 }
 
-a img{
+#titleArea a img{
 	margin-top: 5px;
 	height: 40px;
 	width: auto;
+}
+
+.quick img{
+	width: 100%;
 }
 
 html{
