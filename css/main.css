@@ -13,7 +13,8 @@
 #titleArea{
 	width: 95vw;
 	margin: 2.5vh;
-	margin-left: 2.5vw;
+	margin-left: auto;
+	margin-right: auto;
 	min-height: 50px;
 	background: var(--scnd);
 	padding: 1em;
@@ -160,7 +161,7 @@ a:hover{
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background-color: var(--scrollbar-background);
+	background-color: var(--scrollbar-background);	
 }
 
 /* Handle */
