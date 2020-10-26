@@ -10,7 +10,7 @@ $(document).ready(function(){
 $(window).resize(checkWindowSize);
 
 function checkWindowSize(){
-	if(window.innerWidth < 900){
+	if(window.innerWidth <= 900){
 		swapLogo("small");
 	}
 	else{
